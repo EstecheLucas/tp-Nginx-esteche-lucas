@@ -1,0 +1,21 @@
+# Global ignores to keep image contexts small and correct
+
+# Node
+node_modules
+**/node_modules
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Builds
+dist
+**/dist
+
+# Vite cache
+**/.vite
+
+# Git & OS cruft
+.git
+.gitignore
+.DS_Store
+Thumbs.db
